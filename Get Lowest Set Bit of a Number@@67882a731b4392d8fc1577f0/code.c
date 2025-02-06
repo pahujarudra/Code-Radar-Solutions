@@ -7,6 +7,6 @@ int main() {
         a << 1;
         pos++;
     }
-    printf("%d", )
+    printf("%d", pos);
     return 0;
 }
