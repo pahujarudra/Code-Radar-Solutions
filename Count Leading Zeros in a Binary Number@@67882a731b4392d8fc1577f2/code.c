@@ -3,10 +3,10 @@
 int main() {
     int a, count = 0;
     scanf("%d", &a);
-    while(a&(1<<31) == 0) {
+    while(a != 0) {
+        a >>= 1;
         count++;
-        a=a<<1;
     }
-    printf("%d", count);
+    printf("%d", 32 - count);
     return 0;
 }
