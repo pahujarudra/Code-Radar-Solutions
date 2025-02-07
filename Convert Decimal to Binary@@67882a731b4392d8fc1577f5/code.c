@@ -13,6 +13,6 @@ int main() {
         if(shift == -1)
         break;
     }
-    printf("%d", num);
+    printf("%llu", num);
     return 0;
 }
