@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    unsigned long long int a, num = 0, shift = 31;
+    unsigned long long a, num = 0, shift = 31;
     scanf("%d", &a);
     
     while(a != 0) {
