@@ -10,6 +10,8 @@ int main() {
         else
         num = (num * 10);
         shift--;
+        if(shift == -1)
+        break;
     }
     printf("%d", num);
     return 0;
