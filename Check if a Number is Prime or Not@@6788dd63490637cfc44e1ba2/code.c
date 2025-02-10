@@ -7,7 +7,7 @@ int main() {
     prime = 0;
     else {
         for(int i = 2; i < a; i++) {
-            if(a % 2 == 0)
+            if(a % i == 0)
             prime = 0;
             break;
         }
