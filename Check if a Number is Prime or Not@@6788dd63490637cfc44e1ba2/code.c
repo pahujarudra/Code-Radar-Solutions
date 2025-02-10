@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <math.h
 
 int main() {
     int a, prime = 1;
     scanf("%d", &a);
     if(a == 1)
     prime = 0;
-    for(int i = 2; i <= a ** 0.5 + 1; i++) {
+    for(int i = 2; i <= sqrt(a); i++) {
         if(a % 2 == 0)
         prime = 0;
     }
