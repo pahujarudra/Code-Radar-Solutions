@@ -9,6 +9,6 @@ int main() {
         if(a % 2 == 0)
         prime = 0;
     }
-    prime == 0 : printf("Not Prime") : printf("Prime");
+    prime == 0 ? printf("Not Prime") : printf("Prime");
     return 0;
 }
