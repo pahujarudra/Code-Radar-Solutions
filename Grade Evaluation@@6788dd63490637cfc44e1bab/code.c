@@ -22,4 +22,5 @@ int main() {
         default:
         printf("Invalid grade");
     }
+    return 0;
 }
