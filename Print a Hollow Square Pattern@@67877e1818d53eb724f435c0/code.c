@@ -11,7 +11,7 @@ int main() {
             else
             printf(" ");
         }
-        printf("*");
+        printf("*\n");
     }
     return 0;
 }
