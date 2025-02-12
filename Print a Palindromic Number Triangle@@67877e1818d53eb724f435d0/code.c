@@ -8,7 +8,7 @@ int main() {
             printf(" ");
         }
         for(int k = 1; k >= 1 && k <= i; max ? k-- : k++) {
-            if(k == n)
+            if(k == i)
             max = 1;
             printf("%d", k);
         }
