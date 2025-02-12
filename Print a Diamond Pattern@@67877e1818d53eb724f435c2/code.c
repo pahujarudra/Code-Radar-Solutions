@@ -10,6 +10,7 @@ int main() {
         for(int k = 1; k <= i * 2 - 1; k++) {
             printf("*");
         }
+        printf("\n");
     }
     for(int a = n - 1; a >= 1; a--) {
         for(int j = 1; j <= n - a; j++) {
@@ -18,6 +19,7 @@ int main() {
         for(int k = 1; k <= a * 2 - 1; k++) {
             printf("*");
         }
+        printf("\n");
     }
     return 0;
 }
