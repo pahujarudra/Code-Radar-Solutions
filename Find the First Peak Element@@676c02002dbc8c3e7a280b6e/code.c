@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    int arr[num];
-    for(int i = 0; i < num; i++) {
-        scanf("%d", &arr[i - 1]);
+    int size;
+    scanf("%d", &size);
+    int arr[size];
+    for(int i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
     }
     int max = arr[0];
-    for(int i = 1; i < num; i++) {
+    for(int i = 1; i < size; i++) {
         if(arr[i - 1] > arr[i]) {
             max = arr[i - 1];
             break;
