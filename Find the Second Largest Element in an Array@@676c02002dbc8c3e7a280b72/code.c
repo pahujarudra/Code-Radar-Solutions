@@ -11,5 +11,6 @@ int main() {
     for(int i = 0; i < size; i++) {
         if(arr[i] < max && arr[i] > max2) max2 = arr[i];
     }
-    printf("%d", max2)
+    printf("%d", max2);
+    return 0;
 }
