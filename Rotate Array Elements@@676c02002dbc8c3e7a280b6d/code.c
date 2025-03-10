@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
+    
     int length, shift;
     scanf("%d\n", &length);
-    int arr[length] = {};
-    int arr2[length] = {};
+    int arr[length];
+    int arr2[length];
     for(int i = 0; i < length; i++) {
         scanf("%d", &arr[i]);
     }
