@@ -9,7 +9,7 @@ int main() {
     }
     for(int i = 0; i < size; i++) {
         int count = 0, flag = 0;
-        for(int j = i - 1; j >= 0; j++) {
+        for(int j = i - 1; j >= 0; j--) {
             if(arr[i] == arr[j]) {
                 flag = 1;
                 break;
