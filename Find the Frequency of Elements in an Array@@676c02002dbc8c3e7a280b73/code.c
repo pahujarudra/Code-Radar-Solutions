@@ -10,8 +10,9 @@ int main() {
     for(int i = 0; i < size; i++) {
         int count = 0;
         for(int j = i; j >= 0; j++) {
+            int flag = 0;
             if(arr[i] == arr[j]);
-            int flag = 1;
+            flag = 1;
             break;
         }
         if(flag) continue;
