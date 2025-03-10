@@ -9,8 +9,10 @@ int main() {
     }
     int max = arr[0], max2 = arr[0];
     for(int i = 0; i < size; i++) {
-        if(arr[i] > max) max = arr[i];
-        if(arr[i] < max && arr[i] > max2) max2 = arr[i];
+        if(arr[i] > max) {
+            max2 = max;
+            max = arr[i];
+        }
     }
     printf("%d", max2);
     return 0;
