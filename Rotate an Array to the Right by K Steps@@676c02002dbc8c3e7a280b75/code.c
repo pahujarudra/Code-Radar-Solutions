@@ -7,7 +7,7 @@ int main() {
     for(int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
-    scanf("%d", shift);
+    scanf("%d", &shift);
     for(int i = 0; i < size; i++) {
         if(i + shift < size) {
             arr2[i + shift] = arr[i];
