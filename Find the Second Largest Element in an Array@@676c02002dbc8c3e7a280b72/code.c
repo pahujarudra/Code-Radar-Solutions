@@ -12,7 +12,7 @@ int main() {
         if(arr[i] > max) {
             max2 = max;
             max = arr[i];
-        } else if(arr[i] == max) {
+        } else {
             max2 = -1;
         }
     }
