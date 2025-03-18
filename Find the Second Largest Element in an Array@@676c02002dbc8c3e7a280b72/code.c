@@ -18,6 +18,6 @@ int main() {
             max2 = arr[i];
         }
     }
-    printf("%d", max2);
+    max2 == -1000 ? printf("-1") : printf("%d", max2);
     return 0;
 }
