@@ -18,7 +18,7 @@ int main() {
         }        
     }
     for(int k = 0; k < length; k++) {
-        printf("%d", arr2[k]);
+        printf("%d ", arr2[k]);
     }
     return 0;
 }
