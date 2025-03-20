@@ -10,6 +10,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &shift);                             // arr2[j] = arr[(j+shift)%length]
+    if(shift >= length) {
+        shift = (shift % length);
+    }
     for(int j = 0; j < length; j++) {
         if ((length - shift + j) < length) {
             arr2[j] = arr[length - shift + j];
