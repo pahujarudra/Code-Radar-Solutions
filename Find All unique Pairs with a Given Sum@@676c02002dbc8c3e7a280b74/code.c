@@ -4,7 +4,7 @@
 int main() {
     int n, target, index = 0, is_printed = 0;
     scanf("%d", &n);
-    int arr[n], unique[n]
+    int arr[n], unique[n];
     for(int i = 0; i < n; i++) {
         scanf("%d ", &arr[i]);
         unique[i] = -1000;
