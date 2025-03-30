@@ -6,7 +6,7 @@ int findOccurence(int arr[], int n, int target, char mode) {
                 return i;
             }
         }
-        if(mode = ='L') {
+        if(mode =='L') {
             if(arr[j] == target) {
                 return j;
             }
