@@ -8,5 +8,5 @@ int findKthMissing(int arr[], int n, int k) {
         miss++;
         k--;
     }
-    printf("%d", --miss);
+    return --miss;
 }
