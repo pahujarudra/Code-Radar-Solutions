@@ -2,7 +2,7 @@
 int kthSmallest(int arr[], int n, int k) {
     int temp;
     while(k > 0) {
-        int min = arr[0], minindex = -1;
+        int min = 1000, minindex = -1;
         for(int i = 0; i < n; i++) {
             if(arr[i] < min) {
                 min = arr[i];
