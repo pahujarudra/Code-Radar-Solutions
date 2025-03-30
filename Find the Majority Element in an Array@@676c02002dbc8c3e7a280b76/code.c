@@ -8,7 +8,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d ", &arr[i]);
     }
-    int maxcount = -1;
+    int maxcount = 0, maxnum = -1;
     for(int i = 0; i < n; i++) {
         int count = 0;
         for(int j = i; j < n; j++) {
@@ -18,8 +18,9 @@ int main() {
         }
         if(count > n / 2 && count > maxcount) {
             maxcount = count;
+            maxnum = arr[i];
         }
     }
-    printf("%d", maxcount);
+    printf("%d", maxnum);
     return 0;
 }
