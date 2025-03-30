@@ -9,7 +9,7 @@ int kthSmallest(int arr[], int n, int k) {
             }
         }
         temp = min;
-        min = 1000;
+        arr[i] = 1000;
         k--;
     }
     return temp;
