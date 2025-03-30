@@ -11,6 +11,7 @@ int main() {
     int count = 0;
     for(int i = 0; i < n; i++) {
         int current = 1;
+        if(arr[i] < 2) continue;
         for(int j = 2; j * j <= i; j++) {
             if(arr[i] % j == 0) {
                 current = 0;
