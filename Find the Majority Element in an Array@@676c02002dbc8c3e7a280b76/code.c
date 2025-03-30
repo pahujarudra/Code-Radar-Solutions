@@ -16,7 +16,7 @@ int main() {
                 count++;
             }
         }
-        if(count >= n / 2 && count > maxcount) {
+        if(count > n / 2 && count > maxcount) {
             maxcount = count;
         }
     }
