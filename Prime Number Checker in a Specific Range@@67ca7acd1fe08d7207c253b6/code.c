@@ -9,6 +9,6 @@ void printPrimesInRange(int a, int b){
                 break;
             }
         }
-        if(isPrime) printf("%d ");
+        if(isPrime) printf("%d ", i);
     }
 }
