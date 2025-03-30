@@ -8,8 +8,9 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d ", &arr[i]);
     }
+    int count = 0;
     for(int i = 0; i < n; i++) {
-        int count = 0, current = 1;
+        int current = 1;
         for(int j = 2; j * j <= n; j++) {
             if(arr[i] % j == 0) {
                 current = 0;
