@@ -10,6 +10,9 @@ int main() {
     }
     for(int i = 0; i < n; i++) {
         int temp = arr[i], sum = 0;
+        if(temp < 0) {
+            temp = -temp;
+        }
         while(temp > 0) {
             sum = sum + (temp % 10);
             temp /= 10;
