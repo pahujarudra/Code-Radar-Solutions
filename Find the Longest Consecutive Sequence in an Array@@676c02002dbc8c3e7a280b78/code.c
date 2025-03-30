@@ -21,9 +21,9 @@ int main() {
     }
     int length = 1;
     for(int i = 1; i < n; i++) {
-        int diff = arr[i] - arr[i - 1], templength = 1;
+        int templength = 1;
         for(int j = i; j < n; j++) {
-            if(arr[j] - arr[j - 1] == diff) {
+            if(arr[j] - arr[j - 1] == 1) {
                 templength++;
             }
         }
