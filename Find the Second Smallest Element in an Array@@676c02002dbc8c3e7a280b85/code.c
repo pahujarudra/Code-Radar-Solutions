@@ -16,7 +16,7 @@ int main() {
     }
     int min = arr[0];
     for(int i = 0; i < n; i++) {
-        if(arr[i] == min) continue;
+        if(arr[i] != min)
         printf("%d", arr[i]);
         return 0;
     }
