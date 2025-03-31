@@ -4,7 +4,6 @@ int main() {
     int n;
     
     // Input the number of elements
-    printf("Enter number of elements: ");
     scanf("%d", &n);
 
     if (n < 2) {
