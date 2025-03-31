@@ -13,7 +13,7 @@ int main() {
         shift = (shift % length);
     }
     for(int j = 0; j < length; j++) {
-        arr2[(j + shift) % length] = arr[i];
+        arr2[(j + shift) % length] = arr[j];
     }
     for(int k = 0; k < length; k++) {
         printf("%d ", arr2[k]);
